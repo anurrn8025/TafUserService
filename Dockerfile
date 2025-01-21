@@ -10,7 +10,7 @@ COPY build/libs/TafUserService.jar app.jar
 
 # Expose the port your application runs on
 # Replace 8080 with your application's port if it's different
-EXPOSE 8081
+EXPOSE 8082
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
